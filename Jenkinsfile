@@ -18,7 +18,7 @@ pipeline {
             steps {
                 script {
                 sh "echo 'Test Code!'"
-                // Run Maven on a Unix agent 2022 Ernesto.
+                // Run Maven on a Unix agent 2022 Ernest wwwo.
                 sh "mvn clean test -e"
                 }
             }
